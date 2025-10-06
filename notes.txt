@@ -1,0 +1,4 @@
+manipulate tests 
+- write it.only -> runs only that test 
+- write it.skip -> skips that test
+-write xit -> skips that test
