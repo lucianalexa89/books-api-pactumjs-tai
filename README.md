@@ -13,7 +13,9 @@ Before you begin, ensure you have the following installed:
 
 ### Install Dependencies
 
-Navigate to the project directory and run:
+In order to run the tests, navigate to the project directory and run:
 
 ```bash
-npm install
+npm test run
+
+
