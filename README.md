@@ -13,8 +13,14 @@ Before you begin, ensure you have the following installed:
 
 ### Install Dependencies
 
-Navigate to the project directory and run:
+In order to run the tests, navigate to the project directory and run:
 
 ```bash
+<<<<<<< HEAD
 npm install
 ```
+=======
+npm test run
+
+
+>>>>>>> ecba81d9c2c10bb5a407ff7b274382ea35ff4ac3
