@@ -24,3 +24,6 @@ npm test run
 
 
 >>>>>>> ecba81d9c2c10bb5a407ff7b274382ea35ff4ac3
+
+
+Make sure to create a .env file and include all the variables mentioned in the .env.dist file with the proper values!
