@@ -1,13 +1,14 @@
 const { spec, request } = require('pactum');
 const { faker } = require('@faker-js/faker');
+require('dotenv').config();
 
-const baseUrl = 'http://localhost:3000';
+const baseUrl = process.env.baseUrl;
 
 describe('POST -> API request - create token', () => {
   it('Retrieve token', async () => {
     const requestBody = {
-      email: 'rv@tai.com',
-      password: 'learnwithrv',
+      email: process.env.email,
+      password: process.env.password,
     };
 
     const AUTH_TOKEN = await spec()

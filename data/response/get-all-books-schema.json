@@ -13,10 +13,6 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "title",
-      "author"
-    ]
+    "required": ["id", "title", "author"]
   }
 }

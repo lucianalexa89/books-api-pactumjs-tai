@@ -17,3 +17,4 @@ Navigate to the project directory and run:
 
 ```bash
 npm install
+```

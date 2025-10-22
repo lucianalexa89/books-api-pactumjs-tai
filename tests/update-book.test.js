@@ -1,7 +1,8 @@
 const { faker } = require('@faker-js/faker');
 const { spec, request } = require('pactum');
+require('dotenv').config();
 
-const baseUrl = 'http://localhost:3000';
+const baseUrl = process.env.baseUrl;
 
 describe('PUT -> API request - update book', () => {
   before(() => {

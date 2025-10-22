@@ -1,8 +1,9 @@
 const { faker } = require('@faker-js/faker');
 const { spec, request } = require('pactum');
 const { generateToken } = require('../lib/generate-token');
+require('dotenv').config();
 
-const baseUrl = 'http://localhost:3000';
+const baseUrl = process.env.baseUrl;
 
 describe('GET -> API request - get all private books', () => {
   let token;
